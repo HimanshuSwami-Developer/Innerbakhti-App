@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 // Firebase Initialization
-const serviceAccount = require('./resolute-e8cac-firebase-adminsdk-2po81-ef86825ca8.json');
+const serviceAccount = require('./resolute-e8cac-firebase-adminsdk-2po81-6d884287fb.json');
 initializeApp({
   credential: cert(serviceAccount),
   storageBucket: `${process.env.FIREBASE_PROJECT_ID}.appspot.com`
